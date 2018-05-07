@@ -1,0 +1,7 @@
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+  @import "admin/dashboard";
+  @import "admin/plugins/charts-c3/plugin";
+  @import "admin/plugins/maps-google/plugin";
+  @import "alertify";
+  @import "alertify/default";
+  @import "alertify/bootstrap";

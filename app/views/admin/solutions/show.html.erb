@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @solution.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @solution.description %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @solution.status %>
+</p>
+
+<%= link_to 'Edit', edit_admin_solution_path(@solution) %> |
+<%= link_to 'Back', admin_solutions_path %>

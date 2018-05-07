@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @report.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @report.description %>
+</p>
+
+<p>
+  <strong>Hero image:</strong>
+  <%= @report.hero_image %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @report.status %>
+</p>
+
+<%= link_to 'Edit', edit_admin_report_path(@report) %> |
+<%= link_to 'Back', admin_reports_path %>
